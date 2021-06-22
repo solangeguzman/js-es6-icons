@@ -1,0 +1,58 @@
+
+.color-bg{
+    background-color: rgb(58, 58, 184);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    
+}
+
+.color-bg-1{
+    height: 500px;
+    background-color: rgb(172, 171, 171);
+    
+}
+/* #container{
+    background-color: khaki;
+    width: 500px;
+   display: flex;
+    
+} */
+
+/* las figuras singolas */
+.icon-box{
+    flex-basis: calc(100% /5);
+    max-width: calc(100% /5);
+    margin-top:15px;
+    margin-bottom: 15px;
+
+}
+/* el de abajo es el recuadro que cierra a los animales */
+.icon-card-inner{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+    border: rgb(192, 187, 187) solid 1px;
+    border-radius: 5px;
+    height: 120px;
+   
+
+}
+
+.icon{
+    font-size: 40px;
+}
+.name{
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.icon.vegetable{
+    color:chocolate;
+}
+.icon.user{
+    color:violet;
+}
+.icon.animal{
+    color: rgb(97, 97, 182);
+}
